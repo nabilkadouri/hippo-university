@@ -1,4 +1,3 @@
-// _components/Footer.js
 import Link from "next/link";
 
 export default function Footer() {
@@ -26,7 +25,6 @@ export default function Footer() {
           </Link>
         </div>
 
-        {/* Droits d'auteur et informations */}
         <p className="text-gray-400 text-xs">
           © {new Date().getFullYear()} Hippo University. Tous droits réservés.
         </p>

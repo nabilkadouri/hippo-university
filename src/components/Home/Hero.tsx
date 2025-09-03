@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div
       className="relative text-white py-20 md:py-28 bg-cover bg-center"
-      style={{ backgroundImage: "url('images/hero-dev.jpg')" }}
+      style={{ backgroundImage: "url('/images/hero-dev.jpg')" }}
     >
       <div className="absolute inset-0 bg-black opacity-60"></div>
 
@@ -21,7 +21,7 @@ export default function Hero() {
           formations sont conçues pour faire de vous un expert prêt à relever
           les défis du monde numérique.
         </p>
-        <Link href="/classrooms" passHref>
+        <Link href="#classrooms" passHref>
           <span className="inline-block bg-[#4F90C0] text-white font-bold py-4 px-6 md:py-6 md:px-8 rounded-full shadow-lg hover:bg-[#09416F] transition-colors duration-300 transform hover:scale-105 text-xl md:text-4xl">
             Découvrir nos formations
           </span>
